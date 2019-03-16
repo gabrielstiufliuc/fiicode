@@ -1,0 +1,64 @@
+{
+  "name": "fiicode",
+  "version": "1.0.0",
+  "description": "FiiCode Project 2019",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web": "react-scripts start",
+    "mobile": "expo start"
+  },
+  "dependencies": {
+    "buffer": "5.2.1",
+    "expo": "32.0.0",
+    "har-validator": "5.1.3",
+    "history": "4.7.2",
+    "moment": "2.22.2",
+    "node-libs-react-native": "1.0.3",
+    "react": "16.6.3",
+    "react-dom": "16.6.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-extended-stylesheet": "0.11.1",
+    "react-native-web": "0.10.0-alpha.2",
+    "react-router": "4.3.1",
+    "react-router-dom": "4.3.1",
+    "react-router-native": "4.3.0",
+    "react-scripts": "2.1.3",
+    "stream-browserify": "2.0.1",
+    "velocity-react": "1.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.2",
+    "@babel/runtime": "7.2.0",
+    "@types/moment": "^2.13.0",
+    "@types/react": "16.7.8",
+    "@types/react-dom": "16.0.11",
+    "@types/react-native": "0.57.25",
+    "@types/react-router": "4.4.1",
+    "@types/react-router-dom": "4.3.1",
+    "@types/react-router-native": "4.2.3",
+    "awesome-typescript-loader": "5.2.1",
+    "babel-jest": "23.6.0",
+    "babel-plugin-module-resolver": "3.1.1",
+    "babel-preset-expo": "5.0.0",
+    "css-loader": "1.0.1",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-dom": "16.7.0",
+    "react-hot-loader": "4.6.3",
+    "react-native-typescript-transformer": "1.2.11",
+    "tslint": "5.11.0",
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-react": "3.6.0",
+    "typescript": "3.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielstiufliuc/fiicode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielstiufliuc/fiicode/issues"
+  },
+  "homepage": "https://github.com/gabrielstiufliuc/fiicode#readme"
+}

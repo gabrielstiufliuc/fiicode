@@ -1,0 +1,7 @@
+/.vscode
+/logs
+/build
+/node_modules
+/.expo
+/.jest
+/src/shared/config/*
