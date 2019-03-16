@@ -1,0 +1,85 @@
+{
+    "env": {
+        "browser": false,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-undef": 1,
+        "no-unused-vars": 1,
+        "no-multiple-empty-lines": [
+            "error",
+            {
+                "max": 1,
+                "maxEOF": 1
+            }
+        ],
+        "object-shorthand": ["error", "always"],
+        "comma-dangle": [
+            "error",
+            {
+                "arrays": "always-multiline",
+                "objects": "always-multiline",
+                "imports": "always-multiline",
+                "exports": "always-multiline",
+                "functions": "never"
+            }
+        ],
+        "one-var": [
+            "error",
+            "never"
+        ],
+        "capitalized-comments": [
+            "error",
+            "always",
+            {
+                "ignoreConsecutiveComments": true
+            }
+        ],
+        "lines-around-comment": [
+            "error",
+            {
+                "beforeLineComment": true,
+                "beforeBlockComment": false
+            }
+        ],
+        "no-constant-condition": "error",
+        "arrow-spacing": [
+            "error",
+            {
+                "before": true,
+                "after": true
+            }
+        ],
+        "curly": [
+            "error",
+            "multi-line"
+        ],
+        "max-len": [
+            "error",
+            {
+                "code": 120,
+                "comments": 120,
+                "tabWidth": 4
+            }
+        ]
+    }
+}
