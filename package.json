@@ -1,8 +1,8 @@
 {
+  "main": "node_modules/expo/AppEntry.js",
   "name": "fiicode",
   "version": "1.0.0",
   "description": "FiiCode Project 2019",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "web": "react-scripts start",
@@ -43,9 +43,11 @@
     "babel-preset-expo": "5.0.0",
     "css-loader": "1.0.1",
     "metro-react-native-babel-preset": "0.51.1",
+    "react-art": "^16.8.4",
     "react-dom": "16.7.0",
     "react-hot-loader": "4.6.3",
     "react-native-typescript-transformer": "1.2.11",
+    "schedule": "^0.4.0",
     "tslint": "5.11.0",
     "tslint-eslint-rules": "5.4.0",
     "tslint-react": "3.6.0",
@@ -60,5 +62,11 @@
   "bugs": {
     "url": "https://github.com/gabrielstiufliuc/fiicode/issues"
   },
-  "homepage": "https://github.com/gabrielstiufliuc/fiicode#readme"
+  "homepage": "https://github.com/gabrielstiufliuc/fiicode#readme",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

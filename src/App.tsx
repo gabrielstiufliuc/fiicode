@@ -1,3 +1,4 @@
+import { Example } from './Example';
 import { Route, Switch } from './routing';
 import * as React from 'react';
 import { SafeAreaView, Text, View } from 'react-native';
@@ -29,7 +30,7 @@ class App extends React.Component<Props, State> {
             <View nativeID={'app'}>
                 <SafeAreaView nativeID={'safeAreaView'} style={{ flex: 1 }}>
                     <Switch>
-                        <Route render={() => <Text>Hello</Text>} path='/' />
+                        <Route component={Example} path='/' />
                     </Switch>
                 </SafeAreaView>
             </View>
