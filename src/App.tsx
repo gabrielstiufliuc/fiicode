@@ -27,7 +27,7 @@ class App extends React.Component<Props, State> {
 
     public render() {
         return (
-            <View nativeID={'app'}>
+            <View nativeID={'app'} style={{ flex: 1 }}>
                 <SafeAreaView nativeID={'safeAreaView'} style={{ flex: 1 }}>
                     <Switch>
                         <Route component={Example} path='/' />
@@ -37,6 +37,8 @@ class App extends React.Component<Props, State> {
         );
     }
 }
+
+
 
 // in order to access history from props, use withRouter HOC
 export default withRouter<any>(App);
